@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+Require all denied
+deny from all

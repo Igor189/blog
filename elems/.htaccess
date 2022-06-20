@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+
+#RewriteCond %{REQUEST_URI} !^/main\.php$
+#RewriteRule ^test\.php$ main.php [NC]
+#ErrorDocument 404 /test.php
+Require all denied
+deny from all

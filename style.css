@@ -1,0 +1,42 @@
+footer
+{
+    color:red;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+header a
+{
+    margin-right: 5px;
+    color: blue;
+    text-decoration: none;
+}
+header a.active
+{
+    text-decoration: underline;
+}
+.success
+{
+    color:green;
+}
+.error
+{
+    color: red;
+}
+.content {
+    margin-left:100px;
+    margin-right: 100px;
+}
+html {
+    background-image: url(https://img.freepik.com/free-vector/gradient-spheres-background_52683-76367.jpg?w=740&t=st=1655727939~exp=1655728539~hmac=ea7c97286ae38fc9e02903ae97245140e908eea9d03469c183c76f7e301303fa);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
